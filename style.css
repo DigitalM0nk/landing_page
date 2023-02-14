@@ -43,7 +43,7 @@
     align-items: flex-start;
 }
 
-img {
+.seagull {
     margin-top: 100px;
     height: 250px;
     width: 500px;
@@ -72,4 +72,118 @@ img {
     margin-left: 10%;
     margin-right: 10%;
     
+}
+
+.inforando {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.allrandos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 100px;
+}
+
+.allrandos img {
+    width: 175px;
+    height: 175px;
+    border: 5px solid royalblue;
+    border-radius: 15px;
+}
+
+.allrandoms p {
+    text-align: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    order: 0;
+    align-self: center;
+    margin-bottom: 0px;
+}
+
+.quotestuff {
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.thor {
+    font-size: 24px;
+    font-weight: 800;
+    order: 1;
+    align-self: flex-end;
+    margin-right: 30%;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    background-color: #1F2937;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.calltoaction {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.bluewindow {
+    background-color: #3882F6;
+    color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+}
+
+.callcontainer {
+    order: 0;
+    
+}
+
+.signup {
+    order: 1;
+    align-self: center;
+    
+}
+
+.callcontainer h3 {
+    margin-bottom: 0px;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.callcontainer p {
+    margin-top: 0px;
+}
+
+.signup button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 15px;
+    font-weight: 600;
+    border: 3px solid white;
+    padding: 5px 30px 5px 30px;
 }
